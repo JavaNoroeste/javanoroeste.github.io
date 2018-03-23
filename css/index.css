@@ -1,0 +1,47 @@
+/*
+	Autor(es): José Carlos de Freitas;
+	Data: 13:22 23/03/2018.
+*/
+
+/*header*/
+h1.navbar-brand {
+	margin: 0;
+}
+
+.navbar-nav-right{
+	margin-left: auto;
+}
+
+.logo-java-noroeste{
+	margin: 3em auto;
+    display: block;
+    width: 20em;
+}
+
+/*main*/
+section{
+	padding: 4em 0;
+}
+
+/*footer*/
+.footer{
+	padding: 1.5em 0;
+    box-shadow: 0 0 5px #ccc;
+}
+.footer .container-fluid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.footer p, .footer .redes-sociais {
+	margin: 0;
+}
+
+.redes-sociais {
+	padding: 0;
+}
+.redes-sociais li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 .33em;
+}

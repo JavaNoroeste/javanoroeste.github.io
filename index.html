@@ -1,50 +1,222 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-		<title>Coming Soon</title>
-		<script type="text/javascript" src="tools/jquery.min.js"></script>
-		<link href="tools/style.css" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="header">
-				<div class="xouter">
-					<div class="xinner">
-						<img src="images/logo.png" class="logo"/>
+<!-- 
+	Autor(es): José Carlos de Freitas;
+	Data: 13:22 23/03/2018.
+ -->
+
+<!doctype html>
+<html lang="pt">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Arquivo de estilos personalizados -->
+	<link rel="stylesheet" href="css/index.css">
+
+	<title>Java noroeste</title>
+</head>
+<body>
+	<header>
+		<!-- Just an image -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<a  href="#"><h1 class="navbar-brand">Java noroeste</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav navbar-nav-right">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Início <span class="sr-only">(atual)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Quem somos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Agenda</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Equipe organizadora</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contato</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<img class="logo-java-noroeste" src="images/logo-java-noroeste.png" alt="Logo do java noroeste">
+	</header>
+
+	<main>
+		<section>
+			<div class="container-fluid">
+				<h2>Quem somos</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex. Ut sit amet turpis nec tortor tempus fermentum. Integer iaculis enim accumsan, dictum turpis a, euismod velit. Phasellus at sollicitudin leo, non ullamcorper nisl. Sed dapibus felis mauris, eget maximus enim tempus at. Mauris quis tempor risus. Mauris eu vulputate velit, quis porttitor augue.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex. Ut sit amet turpis nec tortor tempus fermentum. Integer iaculis enim accumsan, dictum turpis a, euismod velit. Phasellus at sollicitudin leo, non ullamcorper nisl. Sed dapibus felis mauris, eget maximus enim tempus at. Mauris quis tempor risus. Mauris eu vulputate velit, quis porttitor augue.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex. Ut sit amet turpis nec tortor tempus fermentum. Integer iaculis enim accumsan, dictum turpis a, euismod velit. Phasellus at sollicitudin leo, non ullamcorper nisl. Sed dapibus felis mauris, eget maximus enim tempus at. Mauris quis tempor risus. Mauris eu vulputate velit, quis porttitor augue.</p>
+			</div>
+		</section>
+
+		<section>
+			<div class="container-fluid">
+				<h2>Agenda</h2>
+
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">Segunda-feira</th>
+							<th scope="col">Terça-feira</th>
+							<th scope="col">Quarta-feira</th>
+							<th scope="col">Quinta-feira</th>
+							<th scope="col">Sexta-feira</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">08:00 ~ 10:00</th>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+						</tr>
+						<tr>
+							<th scope="row">10:00 ~ 12:00</th>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+						</tr>
+						<tr>
+							<th scope="row">12:00 ~ 14:00</th>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+						</tr>
+						<tr>
+							<th scope="row">14:00 ~ 16:00</th>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+						</tr>
+						<tr>
+							<th scope="row">16:00 ~ 18:00</th>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+							<td>Exemplo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section>
+			<div class="container-fluid">
+				<h2>Equipe organizadora</h2>
+
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="card">
+							<img class="card-img-top" src="images/equipe-organizadora/pessoa.jpg" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="card">
+							<img class="card-img-top" src="images/equipe-organizadora/pessoa.jpg" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="card">
+							<img class="card-img-top" src="images/equipe-organizadora/pessoa.jpg" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="card">
+							<img class="card-img-top" src="images/equipe-organizadora/pessoa.jpg" alt="Card image cap">
+							<div class="card-body">
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc orci, pharetra auctor porttitor ac, porttitor et dolor. Quisque porttitor accumsan risus, sit amet pharetra magna dapibus ac. Sed lobortis mauris eget felis posuere, id maximus urna eleifend. Vestibulum dolor mi, placerat sit amet iaculis id, dapibus sed ex.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			
-			<div class="content-wrap">
-				<div class="comingsoon">
-					<h2>Em breve!</h2>
-					<p>A nova página do Java Noroeste</p>
-				</div>
-				
-				<div class="content">
-					<p>Acompanhe-nos facebook e twitter.</p>
-				</div>
+		</section>
+
+		<section>
+			<div class="container-fluid">
+				<h2>Fale conosco</h2>
+
+				<form action="#" method="post">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label class="form-control-label" for="input-nome">Nome</label>
+								<input type="text" class="form-control" name="input-nome" required="true" id="input-nome">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label class="form-control-label" for="input-email">Email</label>
+								<input type="email" class="form-control" name="email" required="true" id="input-email">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label class="form-control-label" for="input-celular">Celular</label>
+								<input type="tel" class="form-control" name="celular" id="input-celular">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="form-control-label" for="textarea-mensagem">Message</label>
+						<textarea type="text" class="form-control" name="mensagem" rows="7" id="textarea-mensagem"></textarea>
+					</div>
+
+					<span class="input-group-btn">
+						<button href="" type="submit" class="btn btn-primary btn-form">Enviar mensagem</button>
+					</span>
+				</form>
 			</div>
-			
-			</div> <!-- end header -->
-			
-			
-			<div class="social">
-				<a href="https://www.facebook.com/Java-Noroeste-124073297662613" class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-				</a>
-				<a href="https://twitter.com/javanoroeste" class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-				</a>
-			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container-fluid">
+			<p class="copyright">&copy; Copyright 2058, Example Corporation</p>
+
+			<ul class="redes-sociais">
+				<li><a href="#" >redes sociais</a></li>
+				<li><a href="#" >facebook</a></li>
+				<li><a href="#" >linkedin</a></li>
+				<li><a href="#" >github</a></li>
+			</ul>
 		</div>
-	</body>
-	
-	
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
